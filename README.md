@@ -28,7 +28,7 @@ Can be used for hot updates to TypeScript or JavaScript projects, or for script 
 [/code]
 
 
-作者花了1个月的时间写出来，并进行了大量的测试，可以达到95%以上的解析率。
+作者花了1个月的时间写出来，并进行了大量的测试，可以达到95%以上的解析率，现在贡献出来。
 效率上无法和原生运行相比，不适合整个项目的直接运行，但适用于局部解析，或者部分功能解析。
 非常适合在一些无法使用eval的场景中使用。
 

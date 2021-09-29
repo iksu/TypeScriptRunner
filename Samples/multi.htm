@@ -1,0 +1,8 @@
+<script src="dmxts.min.js"></script>
+<script>
+    let obj = {};
+    obj.console = window.console;
+    dmt.TsCode.Run(`let a = 1;`, obj);
+    dmt.TsCode.Run(`console.log(a);`, obj);
+    console.log(obj.a);
+</script>
